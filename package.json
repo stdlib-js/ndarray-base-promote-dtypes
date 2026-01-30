@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-promote-dtypes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Resolve the data type that results from applying promotion rules to a provided list of data types.",
   "license": "Apache-2.0",
   "author": {
@@ -81,7 +81,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
