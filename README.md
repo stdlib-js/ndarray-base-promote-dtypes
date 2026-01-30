@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@deno/mod.js';
+import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@v0.1.0-deno/mod.js';
 ```
 
 #### promoteDataTypes( dtypes )
@@ -95,7 +95,7 @@ var dt = promoteDataTypes( [ 'binary', 'complex128' ] );
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-product@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@deno/mod.js';
+import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@v0.1.0-deno/mod.js';
 
 // Get the list of supported data types:
 var dt = dtypes();
