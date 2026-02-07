@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-promote-dtypes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolve the data type that results from applying promotion rules to a provided list of data types.",
   "license": "Apache-2.0",
   "author": {
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@stdlib/array-base-cartesian-product": "^0.2.2",
     "@stdlib/array-base-n-cartesian-product": "^0.2.2",
-    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/ndarray-dtypes": "^0.4.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
