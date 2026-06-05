@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,33 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { DataType } from '@stdlib/types/ndarray';
 
 /**
-* Resolve the data type that results from applying promotion rules to a provided list of data types.
+* Returns a data type that results from applying promotion rules to a provided list of data types.
 *
-* @module @stdlib/ndarray-base-promote-dtypes
+* ## Notes
+*
+* -   The function returns `null` if provided data types which cannot be safely cast to a promoted data type.
+*
+* @param dtypes - list of data types
+* @returns result
 *
 * @example
-* var promoteDataTypes = require( '@stdlib/ndarray-base-promote-dtypes' );
-*
 * var dt = promoteDataTypes( [ 'float32', 'float64' ] );
 * // returns 'float64'
 *
-* dt = promoteDataTypes( [ 'binary', 'complex128' ] );
+* @example
+* var dt = promoteDataTypes( [ 'binary', 'complex128' ] );
 * // returns null
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function promoteDataTypes( dtypes: ArrayLike<DataType> ): DataType | null;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = promoteDataTypes;
